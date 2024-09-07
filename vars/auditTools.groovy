@@ -3,7 +3,7 @@ def call(){
         sh '''
             git version
             java -version
-            mvn version
+            mvn -version
             echo 'list'
             ls
             echo 'present working directory'
